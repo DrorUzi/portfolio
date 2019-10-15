@@ -79,13 +79,13 @@ body {
     transition: all 0.3s ease;
 }
 .offcanvas-btn-open {
-    margin-right: 80vw;
+    margin-right: 70vw;
 }
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
-    width: 80vw;
+    background: #ffd5d5;
+    padding: 20px;
     right: -80vw;
     z-index: 10;
     transition: all 0.3s ease;
@@ -109,8 +109,8 @@ body {
         margin-right: 30vw;
     }
     .offcanvas-aside {
-        width: 30vw;
-        right: -30vw;
+        width: 50vw;
+        right: -50vw;
     }
 }
 .offcanvas-aside-open {
@@ -648,7 +648,7 @@ ul.social-buttons li a:hover {
     font-weight: 700;
     color: white;
     border-color:rgb(253, 134, 134);
-    background-color:rgb(253, 134, 134);
+    background-color:rgb(253, 177, 177);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }

@@ -41,3 +41,12 @@ function renderModal(id) {
   
 }
 
+function sendMail() {
+  var $elMail = $('#form-email').val();
+  var $elSubject = $('#form-subject').val();
+  var $elMsg = $('#form-msg').val();
+  if(!$elMail || !$elSubject || ! $elMsg) return;
+  window.location = `https://mail.google.com/mail/u/0/?view=cm&fs=1&to=contact.dror.uzi5@gmail.com&su=${$elSubject}&body=${$elMsg}`;
+}
+
+

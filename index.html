@@ -31,14 +31,27 @@
     <i class="fa fa-comment" aria-hidden="true"></i>
   </div>
   <aside class="offcanvas-aside">
-
     <!-- Contact -->
     <section id="contact">
       <h4>Contact Me</h4>
+      <form>
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="form-email" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input type="text" class="form-control" id="form-subject" placeholder="Subject">
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea class="form-control" id="form-msg" rows="3" placeholder="Your Massage"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary mb-2" onclick="sendMail()">Confirm</button>
+      </form>
     </section>
 
   </aside>
-
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
@@ -71,8 +84,8 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-          <div class="intro-lead-in">Hey Im Dror Uzi</div>
-          <div class="intro-heading">It's Nice To Meet You</div>
+        <div class="intro-lead-in">Hey Im Dror Uzi</div>
+        <div class="intro-heading">It's Nice To Meet You</div>
         <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
       </div>
     </div>
@@ -183,25 +196,6 @@
             <img src="./img/ca-logo.png" alt="">
           </a>
         </div>
-        <!-- <div class="col-md-4 flex-align-center">
-          <ul class="list-inline social-buttons flex-align-center">
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item flex-align-center">
-              <a href="https://www.facebook.com/dror.uzi">
-                <i class="fa fa-facebook"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fa fa-linkedin"></i>
-              </a>
-            </li>
-          </ul>
-        </div> -->
         <div class="col-md-4 flex-align-center">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
@@ -218,41 +212,41 @@
 
   <!-- Portfolio Modals -->
 
-  
-    `<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
+
+  `<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="item-name"></h2>
-                  <p class="item-intro text-muted"></p>
-                  <img class="item-img img-fluid d-block mx-auto" src="" alt="">
-                  <p class="item-desc"></p>
-                  <ul class="list-inline">
-                    <li class="date"></li>
-                    <li class="category"></li>
-                    <li><a class="link" href="" target="_blank">Come take a look</a></li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="item-name"></h2>
+                <p class="item-intro text-muted"></p>
+                <img class="item-img img-fluid d-block mx-auto" src="" alt="">
+                <p class="item-desc"></p>
+                <ul class="list-inline">
+                  <li class="date"></li>
+                  <li class="category"></li>
+                  <li><a class="link" href="" target="_blank">Come take a look</a></li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fa fa-times"></i>
+                  Close Project</button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>`
+    </div>
+  </div>`
 
-  
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
