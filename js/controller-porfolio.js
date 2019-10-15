@@ -2,12 +2,10 @@
 
 $(document).ready(function () {
   renderPortfolioItems();
-  // renderModal();
 })
 
 function renderPortfolioItems() {
   var items = getItems();
-  var currImg = 1
   var $elItemsContainer = $('.items-container')
   var strHTMLs = items.map(function (item) {
     return `<div class="col-md-4 col-sm-6 portfolio-item" onclick="renderModal(${item.id})"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal">
@@ -15,8 +13,9 @@ function renderPortfolioItems() {
      <div class="portfolio-hover-content">
        <i class="fa fa-plus fa-3x"></i>
      </div>
-   </div>
+   </div><div class="img-container">
    <img class="img-fluid" src=${item.imgUrl} alt="">
+   </div>
  </a>
  <div class="portfolio-caption">
    <h4>${item.name}</h4>

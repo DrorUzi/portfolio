@@ -6,7 +6,7 @@ p {
     line-height: 1.75;
 }
 a {
-    color: #fed136;
+    color:rgb(253, 134, 134);
 }
 a.active,
 a:active,
@@ -46,11 +46,11 @@ section h3.section-subheading {
     }
 }
 ::-moz-selection {
-    background: #fed136;
+    background:rgb(253, 134, 134);
     text-shadow: none;
 }
 ::selection {
-    background: #fed136;
+    background:rgb(253, 134, 134);
     text-shadow: none;
 }
 img::selection {
@@ -60,7 +60,7 @@ img::-moz-selection {
     background: transparent;
 }
 body {
-    -webkit-tap-highlight-color: #fed136;
+    -webkit-tap-highlight-color:rgb(253, 134, 134);
 }
 .offcanvas-btn {
     z-index: 300;
@@ -69,7 +69,7 @@ body {
     right: 3%;
     height: 50px;
     width: 50px;
-    background: #e2cb36;
+    background:rgb(253, 134, 134);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -129,32 +129,35 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color:rgba(253, 134, 134, 0.45);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
 }
 #mainNav .navbar-brand {
-    color: #fed136;
+    color:rgb(253, 134, 134);
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 #mainNav .navbar-brand.active,
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-    color: #fec503;
+    color: rgb(253, 134, 134);
+    outline: none;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: black;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
+    color:rgb(253, 134, 134);
 }
 @media (min-width: 992px) {
     
@@ -189,8 +192,8 @@ body {
 }
 header.masthead {
     text-align: center;
-    color: white;
-    background-image: url("../img/header-bg.jpg");
+    color:  black;
+    background-image: url("../img/1bw.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -200,7 +203,7 @@ header.masthead {
     background-size: cover;
 }
 header.masthead .intro-text {
-    padding-top: 150px;
+    padding-top: 250px;
     padding-bottom: 100px;
 }
 header.masthead .intro-text .intro-lead-in {
@@ -220,7 +223,7 @@ header.masthead .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
     header.masthead .intro-text {
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 200px;
     }
     header.masthead .intro-text .intro-lead-in {
@@ -231,7 +234,7 @@ header.masthead .intro-text .intro-heading {
         font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
     header.masthead .intro-text .intro-heading {
-        font-size: 75px;
+        font-size: 60px;
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;
@@ -247,6 +250,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    
 }
 #portfolio .portfolio-item .portfolio-link {
     position: relative;
@@ -255,6 +259,13 @@ header.masthead .intro-text .intro-heading {
     margin: 0 auto;
     cursor: pointer;
 }
+
+#portfolio .portfolio-item .portfolio-link img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
@@ -263,7 +274,7 @@ header.masthead .intro-text .intro-heading {
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: rgba(254, 209, 54, 0.9);
+    background: rgb(253, 134, 134);
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
@@ -449,7 +460,7 @@ header.masthead .intro-text .intro-heading {
     color: white;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
-    background-color: #fed136;
+    background-color:rgb(253, 134, 134);
 }
 .timeline > li .timeline-image h4 {
     font-size: 10px;
@@ -623,7 +634,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-    background-color: #fed136;
+    background-color:rgb(253, 134, 134);
 }
 .flex-align-center {
     display: flex;
@@ -631,33 +642,33 @@ ul.social-buttons li a:hover {
     align-items: center;
 }
 .text-primary {
-    color: #fed136 !important;
+    color:rgb(253, 134, 134) !important;
 }
 .btn-primary {
     font-weight: 700;
     color: white;
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color:rgb(253, 134, 134);
+    background-color:rgb(253, 134, 134);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
 .btn-primary.focus,
 .btn-primary:focus {
     color: white;
-    border-color: #b48b01;
-    background-color: #fec503;
+    border-color: rgb(252, 170, 170);
+    background-color: rgb(253, 134, 134);
 }
 .btn-primary:hover {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: rgb(252, 170, 170);
+    background-color: rgb(253, 134, 134);
 }
 .btn-primary.active,
 .btn-primary:active,
 .open > .btn-primary.dropdown-toggle {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: rgb(252, 170, 170);
+    background-color: rgb(253, 134, 134);
 }
 .btn-primary.active.focus,
 .btn-primary.active:focus,
@@ -669,8 +680,8 @@ ul.social-buttons li a:hover {
 .open > .btn-primary.dropdown-toggle:focus,
 .open > .btn-primary.dropdown-toggle:hover {
     color: white;
-    border-color: #b48b01;
-    background-color: #dcab01;
+    border-color: rgb(252, 170, 170);
+    background-color: rgb(253, 134, 134);
 }
 .btn-primary.active,
 .btn-primary:active,
@@ -686,11 +697,11 @@ ul.social-buttons li a:hover {
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: rgb(252, 170, 170);
+    background-color: rgb(253, 134, 134);
 }
 .btn-primary .badge {
-    color: #fed136;
+    color:rgb(253, 134, 134);
     background-color: white;
 }
 .btn-xl {
@@ -699,28 +710,26 @@ fieldset[disabled] .btn-primary:hover {
     padding: 20px 40px;
     border-radius: 3px;
     color: white;
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color:rgb(253, 134, 134);
+    background-color:rgb(253, 134, 134, 0.45);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    margin-bottom: 15px;
 }
 .btn-xl.focus,
 .btn-xl:focus {
     color: white;
-    border-color: #b48b01;
-    background-color: #fec503;
+    background-color:rgb(233, 181, 181);
 }
 .btn-xl:hover {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    background-color: rgb(233, 181, 181);
 }
 .btn-xl.active,
 .btn-xl:active,
 .open > .btn-xl.dropdown-toggle {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    background-color: rgb(255, 88, 88);
 }
 .btn-xl.active.focus,
 .btn-xl.active:focus,
@@ -732,8 +741,8 @@ fieldset[disabled] .btn-primary:hover {
 .open > .btn-xl.dropdown-toggle:focus,
 .open > .btn-xl.dropdown-toggle:hover {
     color: white;
-    border-color: #b48b01;
-    background-color: #dcab01;
+    border-color: rgb(252, 170, 170);
+    background-color: rgb(253, 134, 134);
 }
 .btn-xl.active,
 .btn-xl:active,
@@ -749,11 +758,11 @@ fieldset[disabled] .btn-primary:hover {
 fieldset[disabled] .btn-xl.focus,
 fieldset[disabled] .btn-xl:focus,
 fieldset[disabled] .btn-xl:hover {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color:rgb(253, 134, 134);
+    background-color:rgb(253, 134, 134);
 }
 .btn-xl .badge {
-    color: #fed136;
+    color:rgb(253, 134, 134);
     background-color: white;
 }
 
@@ -773,4 +782,8 @@ fieldset[disabled] .btn-xl:hover {
 
 .js-scroll-trigger{
     cursor: pointer;
+}
+
+.link{
+    color:lightcoral;
 }
