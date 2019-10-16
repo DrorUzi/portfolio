@@ -108,10 +108,7 @@ body {
     .offcanvas-btn-open {
         margin-right: 30vw;
     }
-    .offcanvas-aside {
-        width: 50vw;
-        right: -50vw;
-    }
+    
 }
 .offcanvas-aside-open {
     right: 0;
