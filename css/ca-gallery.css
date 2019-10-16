@@ -154,11 +154,11 @@ body {
     color: black;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    border-left:rgb(253, 134, 134) 1px solid;
+    border-right:rgb(253, 134, 134) 1px solid;
 }
 
-#mainNav .navbar-nav .nav-item .a:first-child{
-    border-right:rgb(253, 134, 134) 1px solid;
+li:first-child{
+    border-left:rgb(253, 134, 134) 1px solid;
 
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
