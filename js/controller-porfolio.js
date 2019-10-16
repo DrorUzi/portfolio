@@ -27,10 +27,9 @@ function renderPortfolioItems() {
 
 function renderModal(id) {
   var items = getItems();
-  var itemIdx = items.findIndex(function (item) {
+  var item = items.find(function (item) {
     return item.id === id
   })
-  var item = items[itemIdx]
   $('.item-name').text(item.name)
   $('.item-intro').text(item.intro)
   $('.item-img').attr('src',item.imgUrl)
