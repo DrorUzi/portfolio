@@ -154,6 +154,12 @@ body {
     color: black;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    border-left:rgb(253, 134, 134) 1px solid;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:last-child{
+    border-right:rgb(253, 134, 134) 1px solid;
+
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
