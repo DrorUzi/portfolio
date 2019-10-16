@@ -12,7 +12,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-    color: #fec503;
+    color: rgb(250, 94, 94);
 }
 h1,
 h2,
@@ -157,7 +157,7 @@ body {
     border-left:rgb(253, 134, 134) 1px solid;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link:last-child{
+#mainNav .navbar-nav .nav-item .a:first-child{
     border-right:rgb(253, 134, 134) 1px solid;
 
 }
@@ -193,6 +193,9 @@ body {
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+    }
+    #mainNav.navbar-shrink .nav-item .nav-link{
+        color: white;
     }
    
 }
