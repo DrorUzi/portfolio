@@ -79,7 +79,7 @@ body {
     transition: all 0.3s ease;
 }
 .offcanvas-btn-open {
-    margin-right: 70vw;
+    margin-right: 30vw;
 }
 .offcanvas-aside {
     position: fixed;
@@ -106,7 +106,7 @@ body {
 
 @media (min-width: 575px) {
     .offcanvas-btn-open {
-        margin-right: 30vw;
+        margin-right: 20vw;
     }
     
 }
@@ -657,6 +657,7 @@ ul.social-buttons li a:hover {
     background-color:rgb(253, 177, 177);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .btn-primary.focus,
 .btn-primary:focus {
